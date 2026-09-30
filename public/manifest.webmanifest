@@ -1,0 +1,19 @@
+{
+  "name": "Iron Atlas",
+  "short_name": "Iron Atlas",
+  "description": "Build railways across America in a local strategy game.",
+  "id": ".",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#eddfbf",
+  "theme_color": "#244b42",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

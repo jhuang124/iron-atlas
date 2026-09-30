@@ -1,0 +1,15 @@
+{
+  "name": "iron-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "check": "npm run test && npm run build"
+  },
+  "dependencies": {"react":"^19.1.0", "react-dom":"^19.1.0"},
+  "devDependencies": {"@types/react":"^19.1.0", "@types/react-dom":"^19.1.0", "typescript":"^5.8.0", "vite":"^6.2.0", "tsx":"^4.19.0"}
+}
